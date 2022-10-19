@@ -1,0 +1,414 @@
+// car started desktop 729px 1440px 
+
+.car {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+
+    &__img {
+
+        display: none;
+    }
+
+    &__imag {
+
+        display: none;
+
+
+    }
+
+    &__div img {
+        height: 560px;
+        width: 540px;
+
+
+    }
+
+    &__ul {
+        margin-right: 125px;
+
+
+
+        &__li:nth-child(1) {
+            color: rgba(0, 0, 0, 1);
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 44px;
+            letter-spacing: 1.4285714626312256px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        &__li:nth-child(2) {
+            color: rgba(0, 0, 0, 1);
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 44px;
+            letter-spacing: 1.4285714626312256px;
+            text-align: left;
+            margin-bottom: 32px;
+            text-transform: uppercase;
+        }
+
+        &__li:nth-child(3) {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000000;
+
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &__li:nth-child(4) {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000000;
+
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &__li:nth-child(5) {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000000;
+
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &__li:nth-child(6) {
+
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #000000;
+
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &__li:nth-child(7) a {
+            text-decoration: none;
+            height: 48px;
+            width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-align: left;
+            background-color: rgba(216, 125, 74, 1);
+            color: rgba(255, 255, 255, 1);
+            margin-top: 40px;
+            text-transform: uppercase;
+        }
+
+        &__li:nth-child(7) a:active {
+
+            background-color: rgba(251, 175, 133, 1);
+        }
+
+
+    }
+}
+
+// car finished desktop 729px 1440px 
+
+// car started tablet 768.22px 960px
+
+@media (max-width: 960px) and (min-width: 768.22px) {
+
+    .car {
+        display: block;
+
+        margin: 160px auto 0 auto;
+
+        &__div img {
+            display: none;
+
+        }
+
+        &__imag {
+
+            display: none;
+
+
+        }
+
+        &__img {
+            height: 352px;
+            width: 689px;
+            display: block;
+
+            margin: 0 auto 0 auto;
+        }
+
+
+
+        &__ul {
+            margin: 52px auto 0 auto;
+
+
+
+            &__li:nth-child(1) {
+                color: rgba(0, 0, 0, 1);
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.4285714626312256px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            &__li:nth-child(2) {
+                color: rgba(0, 0, 0, 1);
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.4285714626312256px;
+                text-align: center;
+                margin-bottom: 32px;
+                text-transform: uppercase;
+            }
+
+            &__li:nth-child(3) {
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+
+            &__li:nth-child(4) {
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+
+            &__li:nth-child(5) {
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+
+            &__li:nth-child(6) {
+
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+                margin-bottom: 24px;
+            }
+
+            &__li:nth-child(7) a {
+                text-decoration: none;
+                height: 48px;
+                width: 160px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 18px;
+                letter-spacing: 1px;
+                text-align: left;
+                background-color: rgba(216, 125, 74, 1);
+                color: rgba(255, 255, 255, 1);
+                margin-top: 40px;
+                text-transform: uppercase;
+                margin: 0 auto;
+            }
+
+            &__li:nth-child(7) a:active {
+
+                background-color: rgba(251, 175, 133, 1);
+            }
+
+
+        }
+    }
+
+}
+
+
+
+
+// car finished tablet 768.22px 960px
+
+
+// car started mobile 375px 844px 
+
+@media (max-width: 844px) and (min-width: 375px) {
+
+
+    .car {
+        display: block;
+
+        margin: 120px auto 0 auto;
+
+        &__div img {
+            display: none;
+
+        }
+
+        &__imag {
+            margin: 0 auto 0 auto;
+            height: 352px;
+            width: 327px;
+            display: block;
+
+        }
+
+        &__img {
+
+            display: none;
+
+
+        }
+
+
+
+        &__ul {
+            margin: 52px auto 0 auto;
+
+
+
+            &__li:nth-child(1) {
+                color: rgba(0, 0, 0, 1);
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.4285714626312256px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            &__li:nth-child(2) {
+                color: rgba(0, 0, 0, 1);
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.4285714626312256px;
+                text-align: center;
+                margin-bottom: 32px;
+                text-transform: uppercase;
+            }
+
+            &__li:nth-child(3) {
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+
+            &__li:nth-child(4) {
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+
+            &__li:nth-child(5) {
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+
+            &__li:nth-child(6) {
+
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #000000;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+                margin-bottom: 24px;
+            }
+
+            &__li:nth-child(7) a {
+                text-decoration: none;
+                height: 48px;
+                width: 160px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 18px;
+                letter-spacing: 1px;
+                text-align: left;
+                background-color: rgba(216, 125, 74, 1);
+                color: rgba(255, 255, 255, 1);
+                margin-top: 40px;
+                text-transform: uppercase;
+                margin: 0 auto;
+            }
+
+            &__li:nth-child(7) a:active {
+
+                background-color: rgba(251, 175, 133, 1);
+            }
+
+
+        }
+    }
+
+}
+
+// car finished mobile 375px 844px 
